@@ -24,6 +24,9 @@ body::before {
     content: "";
     height: 60px;
   }
+  .showcase-section {
+    background: url(img/showcase-image.png) no-repeat center center;
+  }
 }
 
 /* NAVBAR */
