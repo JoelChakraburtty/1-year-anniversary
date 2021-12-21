@@ -1,0 +1,165 @@
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+body::before {
+  display: block;
+  content: "";
+  height: 30px;
+}
+
+/* Small devices (tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+  body::before {
+    display: block;
+    content: "";
+    height: 70px;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body::before {
+    display: block;
+    content: "";
+    height: 60px;
+  }
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #ded5c4;
+}
+
+.navbar-brand {
+  color: #305973;
+}
+.navbar-brand:hover {
+  color: #ef7e56;
+}
+
+.navbar-toggler {
+  border-color: #305973;
+  color: #305973;
+  background-color: #305973;
+}
+
+.navbar-toggler:hover {
+  border-color: #ef7e56;
+  color: #ef7e56;
+  background-color: #ef7e56;
+}
+
+.navbar-icon {
+  padding-bottom: 3px;
+}
+
+.nav-link {
+  color: #305973;
+}
+
+.nav-link:hover {
+  color: #ef7e56;
+}
+/*SHOWCASE*/
+.showcase-section {
+  background-color: #ded5c4;
+}
+
+.showcase-h1 {
+  color: #305973;
+}
+
+.showcase-p {
+  color: #305973;
+}
+
+.showcase-btn {
+  border-color: #ef7e56;
+  color: #ef7e56;
+}
+
+.showcase-btn:hover {
+  color: #ef7e56;
+}
+
+.showcase-a {
+  text-decoration: none;
+  color: #ef7e56;
+}
+
+.showcase-a:hover {
+  color: #ef7e56;
+}
+
+hr {
+  color: #f9f9f9;
+  margin: 0;
+}
+
+/* SKILLS */
+#skills {
+  background-color: #ded5c4;
+}
+
+.skills-h2 {
+  color: #305973;
+}
+
+.bi-laptop,
+.bi-person-square,
+.bi-people {
+  color: #ef7e56;
+}
+
+.card {
+  border-radius: 10px;
+}
+.card-title {
+  color: #305973;
+}
+
+.card-text {
+  color: #305973;
+}
+
+.skills-a:hover {
+  color: #305973;
+}
+
+/* WORK */
+#work {
+  background-color: #ded5c4;
+}
+
+.bi-award,
+.bi-book,
+.bi-bookmark-check {
+  color: #ef7e56;
+}
+
+.work-h2 {
+  color: #305973;
+}
+
+/* CONTACT */
+#contact {
+  background-color: #ded5c4;
+}
+
+/* FOOTER */
+#footer {
+  background-color: #ded5c4;
+}
+
+.footer-text {
+  color: #f9f9f9;
+}
+
+.bi-arrow-up-circle {
+  color: #f9f9f9;
+}
+
+.bi-arrow-up-circle:hover {
+  color: #ef7e56;
+}
