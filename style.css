@@ -8,7 +8,7 @@ body::before {
   height: 30px;
 }
 
-/* Small devices (tablets, 768px and down) */
+/* BODY SPACING for small devices (tablets, 768px and down) */
 @media only screen and (max-width: 768px) {
   body::before {
     display: block;
@@ -17,15 +17,12 @@ body::before {
   }
 }
 
-/* Extra small devices (phones, 600px and down) */
+/* BODY SPACING for extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   body::before {
     display: block;
     content: "";
     height: 60px;
-  }
-  .showcase-section {
-    background: url(img/showcase-image.png) no-repeat center center;
   }
 }
 
