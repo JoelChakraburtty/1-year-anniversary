@@ -24,14 +24,6 @@ body::before {
     content: "";
     height: 60px;
   }
-
-  .showcase-section {
-    background: url(img/showcase-image.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
 }
 
 /* NAVBAR */
