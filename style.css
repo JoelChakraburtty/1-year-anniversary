@@ -123,6 +123,20 @@ body::before {
   color: #ef7e56;
 }
 
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .hidden {
+    display: block;
+    visibility: visible;
+    width: 100%;
+  }
+}
+
 hr {
   color: #f9f9f9;
   margin: 0;
