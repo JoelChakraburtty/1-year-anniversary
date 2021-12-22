@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- BOOTSTRAP MIN CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <!-- BOOTSTRAP ICONS CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- AOS External CSS File-->
+    <link href="aos.css" rel="stylesheet" />
+    <!-- CSS Stylehseet -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Joel C Design</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg py-3 fixed-top">
+      <div class="container">
+        <a href="index.html" class="navbar-brand"><strong>Joel.</strong></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span><img src="img/nav-icon.png" class="navbar-icon" /></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#work" class="nav-link">Work</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section
+      class="p-5 p-lg-0 pt-lg-5 text-center text-sm-start showcase-section"
+    >
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div data-aos="fade-down">
+            <h1 class="showcase-h1">I'm Joel Chakraburtty.</h1>
+            <p class="lead my-4 showcase-p">UI/UX Designer & Web Designer</p>
+            <a
+              href="#skills"
+              class="btn btn-outline-light btn-lg showcase-btn showcase-a"
+              >Learn More</a
+            >
+          </div>
+          <img
+            class="img-fluid w-50 d-none d-sm-block"
+            src="img/showcase-image.png"
+            alt=""
+            data-aos="fade-left"
+          />
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- Skills -->
+    <section class="p-5" id="skills">
+      <div class="container">
+        <h2 class="text-center mb-4 skills-h2" data-aos="fade-down">
+          My Skills
+        </h2>
+        <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card" data-aos="fade-up">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-person-square"></i>
+                </div>
+                <h3 class="card-title mb-3">UI/UX Design</h3>
+                <p class="card-text">
+                  I design polished high fidelity mockups and prototypes - ready
+                  to be handed off to the <em>dev</em>. I revolve around a
+                  sound, efficient workflow.
+                </p>
+                <a
+                  href="https://www.behance.net/gallery/133591135/Skill-1-UIUX-Design"
+                  class="btn btn-outline-light btn-lg showcase-btn skills-a"
+                  target="_blank"
+                  ><i class="bi bi-behance"></i> Read More On Behance</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card" data-aos="fade-up">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-laptop"></i>
+                </div>
+                <h3 class="card-title mb-3">Frontend Development</h3>
+                <p class="card-text">
+                  I begin with <em>HTML 5</em> to place visual assets on the
+                  page, then leverage <em>Bootstrap 5</em> components and then
+                  style with <em>CSS 3 + JS libraries</em>.
+                </p>
+                <a
+                  href="https://www.behance.net/gallery/133591525/Skill-2-Frontend-Dev"
+                  class="btn btn-outline-light btn-lg showcase-btn skills-a"
+                  target="_blank"
+                  ><i class="bi bi-behance"></i> Read More On Behance</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card" data-aos="fade-up">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-people"></i>
+                </div>
+                <h3 class="card-title mb-3">Collaboration</h3>
+                <p class="card-text">
+                  I search for feedback in my sketches, user flows, sitemaps,
+                  wireframes, designs, and prototypes to actualize ideas and
+                  concepts.
+                </p>
+                <a
+                  href="https://www.behance.net/gallery/133591715/Skill-3-Collaboration"
+                  class="btn btn-outline-light btn-lg showcase-btn skills-a"
+                  target="_blank"
+                  ><i class="bi bi-behance"></i> Read More On Behance</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- WORK -->
+    <section id="work" class="p-5">
+      <div class="container">
+        <h2 class="text-center mb-4 work-h2" data-aos="fade-up">My Work</h2>
+        <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card" data-aos="fade-up">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-award"></i>
+                </div>
+                <h3 class="card-title mb-3">Full Design Process</h3>
+                <p class="card-text">
+                  By clicking the button below, you will learn about how I turn
+                  <em>low-fidelity designs</em> into
+                  <em>high-fidelity prototypes</em>.
+                </p>
+                <a
+                  href="https://www.behance.net/gallery/132461289/Habitual-High-Fidelity-Prototypes"
+                  class="btn btn-outline-light btn-lg showcase-btn skills-a"
+                  target="_blank"
+                  ><i class="bi bi-behance"></i> View On Behance</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card" data-aos="fade-up">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-book"></i>
+                </div>
+                <h3 class="card-title mb-3">Inspiration Design Process</h3>
+                <p class="card-text">
+                  By clicking the button below, you will learn about my process
+                  to design
+                  <em>adaptations</em> of others' designs.
+                </p>
+                <a
+                  href="https://www.behance.net/gallery/132326191/Inspiration-Redesign"
+                  class="btn btn-outline-light btn-lg showcase-btn skills-a"
+                  target="_blank"
+                  ><i class="bi bi-behance"></i> View On Behance</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card" data-aos="fade-up">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-bookmark-check"></i>
+                </div>
+                <h3 class="card-title mb-3">Frontend Dev Process</h3>
+                <p class="card-text">
+                  By clicking the button below, you will learn how I used
+                  <em>HTML 5/CSS 3, Bootstrap 5</em>, and a
+                  <em>JS library</em> to code this website.
+                </p>
+                <a
+                  href="https://github.com/JoelChakraburtty/portfolio-live-website"
+                  class="btn btn-outline-light btn-lg showcase-btn skills-a"
+                  target="_blank"
+                  ><i class="bi bi-github"></i> View On GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- Contact -->
+    <section class="p-5" id="contact">
+      <div class="container">
+        <h2 class="text-center mb-4 work-h2" data-aos="fade-up">Contact Me</h2>
+        <div class="col-md">
+          <div class="card" data-aos="fade-up">
+            <div class="card-body text-center">
+              <a
+                href="mailto:joelchakraburttydev@outlook.com"
+                class="btn btn-outline-light btn-lg showcase-btn skills-a"
+                target="_blank"
+                ><i class="bi bi-envelope"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/joelchakraburttydev/"
+                class="btn btn-outline-light btn-lg showcase-btn skills-a"
+                target="_blank"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+              <a
+                href="https://www.behance.net/joelchakra"
+                class="btn btn-outline-light btn-lg showcase-btn skills-a"
+                target="_blank"
+                ><i class="bi bi-behance"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- Footer -->
+    <footer
+      class="p-5 text-center position-relative"
+      id="footer"
+      data-aos="fade-down"
+    >
+      <div class="container">
+        <p class="lead footer-text">
+          Copyright &copy; 2020-2022 Joel Chakraburtty
+        </p>
+
+        <a href="#" class="position-absolute bottom-0 end-0 p-5 arrow-icon">
+          <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+      </div>
+    </footer>
+
+    <!-- BOOTSTRAP MIN JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS External Library JS File -->
+    <script src="aos.js"></script>
+
+    <!-- AOS Init JS File -->
+    <script src="scroll-reveal.js"></script>
+  </body>
+</html>
