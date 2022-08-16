@@ -106,7 +106,7 @@ body::before {
 }
 
 .showcase-btn:hover {
-  color: #fff;
+  color: #ded5c4;
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -120,7 +120,7 @@ body::before {
 }
 
 .showcase-a:hover {
-  color: #fff;
+  color: #ded5c4;
 }
 
 .hidden {
@@ -138,73 +138,54 @@ body::before {
 }
 
 hr {
-  color: #f9f9f9;
+  color: #fff;
   margin: 0;
 }
 
 /* SKILLS */
 #skills {
-  background-color: #ded5c4;
-}
-
-.skills-h2 {
-  color: #305973;
+  background-color: #f5a;
 }
 
 .bi-laptop,
 .bi-person-square,
 .bi-people {
-  color: #f9f9f9;
+  color: #fff;
 }
 
 .card {
   border-radius: 10px;
-  background-color: #ded5c4;
-  border: 2px solid #f9f9f9;
+  background-color: #f5a;
+  border: 2px solid #fff;
 }
 .card-title {
-  color: #305973;
+  color: #fff;
 }
 
 .card-text {
-  color: #305973;
+  color: #fff;
 }
 
 .skills-a:hover {
-  color: #305973;
-}
-
-/* WORK */
-#work {
-  background-color: #ded5c4;
-}
-
-.bi-award,
-.bi-book,
-.bi-bookmark-check {
-  color: #305973;
-}
-
-.work-h2 {
-  color: #305973;
+  color: #ded5c4;
 }
 
 /* CONTACT */
 #contact {
-  background-color: #ded5c4;
+  background-color: #f5a;
 }
 
 /* FOOTER */
 #footer {
-  background-color: #ded5c4;
+  background-color: #f5a;
 }
 
 .footer-text {
-  color: #f9f9f9;
+  color: #fff;
 }
 
 .arrow-icon {
-  color: #f9f9f9;
+  color: #fff;
   transition: 0.5s all ease-in-out;
   -webkit-transition: 0.5s all ease-in-out;
   -ms-transition: 0.5s all ease-in-out;
@@ -213,7 +194,7 @@ hr {
 }
 
 .arrow-icon:hover {
-  color: #ef7e56;
+  color: #ded5c4;
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
