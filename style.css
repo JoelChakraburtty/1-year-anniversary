@@ -28,11 +28,11 @@ body::before {
 
 /* NAVBAR */
 .navbar {
-  background-color: #ded5c4;
+  background-color: #F5A;
 }
 
 .navbar-brand {
-  color: #305973;
+  color: #FFF;
   transition: 0.5s all ease-in-out;
   -webkit-transition: 0.5s all ease-in-out;
   -ms-transition: 0.5s all ease-in-out;
@@ -40,7 +40,7 @@ body::before {
   -o-transition: 0.5s all ease-in-out;
 }
 .navbar-brand:hover {
-  color: #ef7e56;
+  color: #ded5c4;
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -49,9 +49,9 @@ body::before {
 }
 
 .navbar-toggler {
-  border-color: #305973;
-  color: #305973;
-  background-color: #305973;
+  border-color: #FFF;
+  color: #FFF;
+  background-color: #FFF;
   transition: 0.5s all ease-in-out;
   -webkit-transition: 0.5s all ease-in-out;
   -ms-transition: 0.5s all ease-in-out;
@@ -60,9 +60,9 @@ body::before {
 }
 
 .navbar-toggler:hover {
-  border-color: #ef7e56;
-  color: #ef7e56;
-  background-color: #ef7e56;
+  border-color: #ded5c4;
+  color: #ded5c4;
+  background-color: #ded5c4;
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
