@@ -106,7 +106,7 @@ body::before {
 }
 
 .showcase-btn:hover {
-  color: #fff;
+  color: #ded5c4;
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -121,20 +121,6 @@ body::before {
 
 .showcase-a:hover {
   color: #fff;
-}
-
-.hidden {
-  display: none;
-  visibility: hidden;
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .hidden {
-    display: block;
-    visibility: visible;
-    width: 100%;
-  }
 }
 
 hr {
