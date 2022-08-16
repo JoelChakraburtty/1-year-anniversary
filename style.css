@@ -60,9 +60,9 @@ body::before {
 }
 
 .navbar-toggler:hover {
-  border-color: #ded5c4;
-  color: #ded5c4;
-  background-color: #ded5c4;
+  border-color: #fff;
+  color: #fff;
+  background-color: #fff;
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -75,29 +75,29 @@ body::before {
 }
 
 .nav-link {
-  color: #305973;
+  color: #fff;
 }
 
 .nav-link:hover {
-  color: #ef7e56;
+  color: #ded5c4;
 }
 
 /*SHOWCASE*/
 .showcase-section {
-  background-color: #ded5c4;
+  background-color: #f5a;
 }
 
 .showcase-h1 {
-  color: #305973;
+  color: #fff;
 }
 
 .showcase-p {
-  color: #305973;
+  color: #fff;
 }
 
 .showcase-btn {
-  border-color: #ef7e56;
-  color: #ef7e56;
+  border-color: #fff;
+  color: #fff;
   transition: 0.5s all ease-in-out;
   -webkit-transition: 0.5s all ease-in-out;
   -ms-transition: 0.5s all ease-in-out;
@@ -106,7 +106,7 @@ body::before {
 }
 
 .showcase-btn:hover {
-  color: #ef7e56;
+  color: #fff;
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -116,11 +116,11 @@ body::before {
 
 .showcase-a {
   text-decoration: none;
-  color: #ef7e56;
+  color: #fff;
 }
 
 .showcase-a:hover {
-  color: #ef7e56;
+  color: #fff;
 }
 
 .hidden {
